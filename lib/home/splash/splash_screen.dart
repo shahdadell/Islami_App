@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:islami_app/home/homescreen/home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
-  static const String routName = "splash" ;
+  static const String routeName = "splash" ;
   const SplashScreen({super.key});
 
   @override
