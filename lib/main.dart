@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami_app/home/homescreen/home_screen.dart';
+import 'package:islami_app/home/quran/sura_details_screen.dart';
 import 'package:islami_app/home/splash/splash_screen.dart';
 import 'package:islami_app/my_theme.dart';
 
@@ -15,10 +16,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: SplashScreen.routName,
+      initialRoute: SplashScreen.routeName,
       routes: {
-        SplashScreen.routName : (context) => const SplashScreen() ,
-        HomeScreen.routName : (context) => const HomeScreen(),
+        SplashScreen.routeName : (context) => const SplashScreen() ,
+        HomeScreen.routeName : (context) => const HomeScreen(),
+        SuraDetailsScreen.routeName :(context) => SuraDetailsScreen(),
       },
       theme: MyTheme.lightTheme,
     );

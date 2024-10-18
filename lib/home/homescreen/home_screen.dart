@@ -5,7 +5,7 @@ import 'package:islami_app/home/radio/radio_tap.dart';
 import 'package:islami_app/home/sebha/sebha_tap.dart';
 
 class HomeScreen extends StatefulWidget {
-  static const String routName = "HomeScreen" ;
+  static const String routeName = "HomeScreen" ;
 
   const HomeScreen({super.key});
 
@@ -70,9 +70,9 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
   List<Widget> tabs = [
-    const QuranTab(),
-    const HadethTap(),
-    const SebhaTap(),
-    const RadioTap()
+     QuranTab(),
+     HadethTap(),
+     SebhaTap(),
+     RadioTap()
   ];
 }
